@@ -46,7 +46,7 @@ body, .menu.type1, .portfolio figcaption, .portfolio figcaption::before, .bx-con
 .blog-items .blog-entry::before { background: #eaeaea; }
 .blog-items .blog-entry { background:#eeeeee; }
 
-.header.nav-is-visible, .header-animate { background: rgba(255, 255, 255, 0.8);}
+.header.nav-is-visible, .header-animate { background: rgba(255, 255, 255, 0.9);}
 .nav-is-visible .menu-trigger span{ background-color: rgba(255, 255, 255, 0);}
 
 #hero-donut text { fill:#000000; }
