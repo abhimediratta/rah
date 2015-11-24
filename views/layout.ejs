@@ -1,91 +1,71 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
   <head>
-    <title>New Sails App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rashmi Art House</title>
+
+    <meta name="description" content="Murals handcrafted in New Delhi">
+    <meta name="author" content="">
+  
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     
-    <!--  
-        Stylesheets and Preprocessors
-        ==============================
+    <!-- **CSS - stylesheets** -->
+    <link id="default-css" rel="stylesheet" href="style.css" type="text/css" media="all" />
 
-        You can always bring in CSS files manually with `<link>` tags, or asynchronously
-        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage 
-        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+    <!-- **Additional - stylesheets** -->
+    <link href="css/animations.css" rel="stylesheet" type="text/css" media="all" />
+    <link id="shortcodes-css" href="css/shortcodes.css" rel="stylesheet" type="text/css" media="all"/>
+    <link id="skin-css" href="skins/red/style.css" rel="stylesheet" media="all" />
+    <link href="css/isotope.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link href="css/pace.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all"/>
 
-        By default, stylesheets from your `assets/styles` folder are included
-        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
-        are supported. In production, your styles will be minified and concatenated into
-        a single file.
-        
-        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
-        For example, here are a few things you could do:
-            
-            + Change the order of your CSS files
-            + Import stylesheets from other directories
-            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
-    -->
+    <link id="light-dark-css" href="light/light.css" rel="stylesheet" media="all" />
 
-    <!--STYLES-->
-    <!--STYLES END-->
+    <!-- **Font Awesome** -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script> 
+
   </head>
 
   <body>
     <%- body %>
 
-
-
-    <!--
-        Client-side Templates
-        ========================
-
-        HTML templates are important prerequisites of modern, rich client applications.
-        To work their magic, frameworks like Backbone, Angular, Ember, and Knockout require
-        that you load these templates client-side.
-
-        By default, your Gruntfile is configured to automatically load and precompile
-        client-side JST templates in your `assets/templates` folder, then
-        include them here automatically (between TEMPLATES and TEMPLATES END).
-        
-        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
-        For example, here are a few things you could do:
-
-            + Import templates from other directories
-            + Use a different template engine (handlebars, jade, dust, etc.)
-            + Internationalize your client-side templates using a server-side
-              stringfile before they're served.
-    -->
-
     <!--TEMPLATES-->
     <!--TEMPLATES END-->
 
 
-    <!--
+    <!-- **jQuery** -->  
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
 
-      Client-side Javascript
-      ========================
-
-      You can always bring in JS files manually with `script` tags, or asynchronously
-      on the client using a solution like AMD (RequireJS).  Or, if you like, you can 
-      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
-
-      By default, files in your `assets/js` folder are included here
-      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
-      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
-      and concatenated into a single file.
+    <script src="js/jquery.inview.js" type="text/javascript"></script>
+    <script src="js/jquery.viewport.js" type="text/javascript"></script>
+    
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    
+    <script src="js/jsplugins.js" type="text/javascript"></script>    
       
-      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
-      For example, here are a few things you could do:
-          
-          + Change the order of your scripts
-          + Import scripts from other directories
-          + Use a different preprocessor, like TypeScript
-
-    -->
-
-    <!--SCRIPTS-->
-    <!--SCRIPTS END-->
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>    
+      
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>    
+    
+    <script src="js/jquery.tipTip.minified.js" type="text/javascript"></script>    
+    
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    
+    <script src="js/custom.js"></script>   
   </body>
 </html>
